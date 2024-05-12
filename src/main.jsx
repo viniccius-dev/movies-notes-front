@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDom from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
+import GlobalStyles from './styles/global';
+import theme from './styles/theme';
 
 ReactDom.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        Olá
+        <ThemeProvider theme={theme}>
+            <GlobalStyles />
+            Olá
+        </ThemeProvider>
     </React.StrictMode>
 );

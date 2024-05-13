@@ -15,7 +15,7 @@ export default {
       PINK: "#FF859B",
       
       GRAY_400: "#666360",
-      PINK_300: "#948F99",
+      GRAY_300: "#948F99",
       GRAY_200: "#999591",
       GRAY_100: "#CAC4CF",
   

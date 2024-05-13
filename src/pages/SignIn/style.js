@@ -21,6 +21,12 @@ export const Form = styled.form`
         color: ${({ theme}) => theme.COLORS.PINK};
     }
 
+    > h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 48px 0;
+    }
+
     > p {
         font-size: 14px;
         color: ${({ theme }) => theme.COLORS.GRAY_100}

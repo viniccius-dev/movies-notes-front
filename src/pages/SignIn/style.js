@@ -31,6 +31,13 @@ export const Form = styled.form`
         font-size: 14px;
         color: ${({ theme }) => theme.COLORS.GRAY_100}
     }
+
+    > a {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        color: ${({ theme}) => theme.COLORS.PINK};
+    }
 `;
 
 export const Background = styled.div`

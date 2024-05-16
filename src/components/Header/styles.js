@@ -10,12 +10,47 @@ export const Container = styled.header`
     border-bottom-color: ${({ theme }) => theme.COLORS.PINK};
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 
     padding: 0 80px;
 
     > h1 {
-        font-size: 48px;
+        font-size: 22px;
         color: ${({ theme}) => theme.COLORS.PINK};
+    }
+
+    > div:nth-of-type(1) {
+        margin: 24px 50px;
+    }
+`;
+
+export const Profile = styled.div`
+    display: flex;
+    align-items: center;
+
+    > img {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+    }
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        margin-right: 16px;
+        line-height: 24px;
+        text-align: right;
+
+        span {
+            font-size: 16px;
+            white-space: nowrap;
+            color: ${({ theme }) => theme.COLORS.WHITE_200};
+        }
+
+        a {
+            font-size: 14px;
+            color: ${({ theme }) => theme.COLORS.GRAY_300};
+        }
     }
 `;

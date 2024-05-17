@@ -7,7 +7,7 @@ export const Container = styled.header`
 
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: ${({ theme }) => theme.COLORS.PINK};
+    border-bottom-color: ${({ theme }) => theme.COLORS.GRAY_400};
 
     display: flex;
     justify-content: space-between;

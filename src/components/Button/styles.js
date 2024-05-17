@@ -12,7 +12,15 @@ export const Container = styled.button`
     border-radius: 10px;
     font-weight: 500;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     &:disabled {
         opacity: 0.5;
+    }
+
+    > svg {
+        margin-right: 5px;
     }
 `;

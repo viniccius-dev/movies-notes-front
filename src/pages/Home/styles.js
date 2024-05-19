@@ -5,7 +5,7 @@ export const Container = styled.div`
     height: 100vh;
 
     display: grid;
-    grid-template-rows: 105px 60px auto;
+    grid-template-rows: 105px 90px auto;
     grid-template-areas:
     "header"
     "title"
@@ -17,7 +17,7 @@ export const Container = styled.div`
         justify-content: space-between;
         align-items: center;
         
-        padding: 50px 80px 40px;
+        padding: 0 80px;
 
         > h3 {
             font-size: 28px;
@@ -30,4 +30,10 @@ export const Container = styled.div`
             margin: 0;
         }
     }
+`;
+
+export const Content = styled.div`
+    grid-area: content;
+    padding: 0 80px;
+    overflow-y: auto;
 `;

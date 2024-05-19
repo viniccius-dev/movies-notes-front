@@ -26,6 +26,12 @@ export const Container = styled.div`
         -webkit-box-orient: vertical;
         color: ${({ theme }) => theme.COLORS.GRAY_200};
     }
+
+    > footer {
+        width: 100%;
+        display: flex;
+        margin-top: 24px;
+    }
 `;
 
 export const Stars = styled.div`

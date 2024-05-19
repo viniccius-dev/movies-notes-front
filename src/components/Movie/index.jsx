@@ -1,6 +1,8 @@
 import { IoMdStarOutline, IoMdStar } from "react-icons/io";
 import { Container, Stars } from './styles';
 
+import { Tag } from '../Tag';
+
 export function Movie({ data, ... rest }) {
     const renderStars = (rating) => {
         let stars = [];
@@ -20,14 +22,14 @@ export function Movie({ data, ... rest }) {
 
             <p>{data.description}</p>
 
-            {/* {
+            {
                 data.tags &&
                 <footer>
                     {
                         data.tags.map(tag => <Tag key={tag.id} title={tag.name} />)
                     }
                 </footer>
-            } */}
+            }
 
         </Container>
     );

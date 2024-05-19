@@ -34,6 +34,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     grid-area: content;
-    padding: 0 80px;
+    padding: 0 5px;
+    margin: 0 75px;
     overflow-y: auto;
 `;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.button`
     width: 100%;
     background-color: ${({ theme }) => theme.COLORS.PINK_BACKGROUND};
 
@@ -25,6 +25,7 @@ export const Container = styled.div`
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         color: ${({ theme }) => theme.COLORS.GRAY_200};
+        text-align: left;
     }
 
     > footer {
@@ -36,6 +37,8 @@ export const Container = styled.div`
 
 export const Stars = styled.div`
     padding: 7px 0;
+    display: flex;
+    justify-content: left;
 
     > svg {
         color: ${({ theme }) => theme.COLORS.PINK};

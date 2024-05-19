@@ -5,9 +5,11 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        scrollbar-width: thin;
+        scrollbar-color: pink transparent;
     }
 
-    body {
+    body, html {
         background-color: ${({ theme }) => theme.COLORS.BACKGROUND_100};
         color: ${({ theme }) => theme.COLORS.WHITE_200};
 
@@ -31,5 +33,19 @@ export default createGlobalStyle`
 
     button:hover, a:hover {
         filter: brightness(0.9);
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: pink;
+        border-radius: 3px;
+        border: 2px solid transparent;
     }
 `;

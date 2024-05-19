@@ -12,6 +12,7 @@ export default {
       WHITE_300: "#E5E5E5",
 
       ORANGE: "#FF9000",
+      PINK_BACKGROUND: "rgba(255,133,155,0.05)",
       PINK: "#FF859B",
       
       GRAY_400: "#666360",

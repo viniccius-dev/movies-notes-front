@@ -9,8 +9,8 @@ export default createGlobalStyle`
         scrollbar-color: pink transparent;
     }
 
-    body, html {
-        background-color: ${({ theme }) => theme.COLORS.BACKGROUND_100};
+    body {
+        background-color: ${({ theme }) => theme.COLORS.BACKGROUND_500};
         color: ${({ theme }) => theme.COLORS.WHITE_200};
 
         --webkit-font-smoothing: antialiased;
@@ -47,5 +47,9 @@ export default createGlobalStyle`
         background-color: pink;
         border-radius: 3px;
         border: 2px solid transparent;
+    }
+
+    ::-webkit-scrollbar-button {
+        display: none;
     }
 `;

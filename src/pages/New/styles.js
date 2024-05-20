@@ -52,3 +52,25 @@ export const Form = styled.form`
         margin-bottom: 20px;
     }
 `;
+
+export const Marks = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    padding: 15px;
+    border-radius: 10px;
+
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_600};
+`;
+
+export const Buttons = styled.div`
+    display: flex;
+    margin-top: 15px;
+    gap: 35px;
+
+    > button:first-of-type {
+        background: ${({ theme }) => theme.COLORS.BACKGROUND_600};
+        color: ${({ theme }) => theme.COLORS.PINK}
+    }
+`;

@@ -1,5 +1,5 @@
 import { FiArrowLeft } from 'react-icons/fi';
-import { Container, Form } from './styles';
+import { Container, Form, Marks, Buttons } from './styles';
 
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
@@ -37,8 +37,15 @@ export function New() {
 
                     <h3>Marcadores</h3>
 
-                    <NoteItem value="Ação" />
-                    <NoteItem $isNew="true" placeholder="Novo marcador" />
+                    <Marks>
+                        <NoteItem value="Ficção Científica" />
+                        <NoteItem $isNew="true" placeholder="Novo marcador" />
+                    </Marks>
+
+                    <Buttons>
+                        <Button title="Excluir filme" />
+                        <Button title="Salvar alterações" />
+                    </Buttons>
 
                 </Form>
             </main>

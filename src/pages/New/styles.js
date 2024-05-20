@@ -39,6 +39,13 @@ export const Form = styled.form`
         font-weight: 500;
     }
 
+    > h3 {
+        margin: 20px 0 10px;
+        font-size: 20px;
+        font-weight: 400;
+        color: ${({ theme }) => theme.COLORS.GRAY_200};
+    }
+
     .inputs {
         display: flex;
         gap: 35px;

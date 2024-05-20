@@ -35,9 +35,9 @@ export function SignUp() {
 
                 <Button title="Cadastrar" />
 
-                <a href="#">
+                <Link to="/">
                     <FiArrowLeft /> Voltar para o login
-                </a>
+                </Link>
             </Form>
 
             <Background />

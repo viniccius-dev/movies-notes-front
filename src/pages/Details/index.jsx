@@ -1,5 +1,6 @@
 import { FiArrowLeft, FiClock } from 'react-icons/fi';
 import { IoMdStarOutline, IoMdStar } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 import { Container, Content, Title, About, Tags } from './styles';
 
@@ -13,9 +14,9 @@ export function Details() {
 
             <main>
                 <Content>
-                    <a href="#">
+                    <Link to="/">
                         <FiArrowLeft /> Voltar
-                    </a>
+                    </Link>
 
                     <Title>
                         <h2>Interstellar</h2>

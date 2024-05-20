@@ -11,10 +11,10 @@ export function Header() {
                     type="text"
             />
 
-            <Profile>
+            <Profile to="/profile">
                 <div>
                     <span>Marcos Vinícius</span>
-                    <a href="#">Sair</a>
+                    <span className="loggout">Sair</span>
                 </div>
                 <img 
                     src="https://github.com/viniccius-dev.png"

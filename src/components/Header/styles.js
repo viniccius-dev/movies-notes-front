@@ -25,7 +25,7 @@ export const Container = styled.header`
     }
 `;
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
     display: flex;
     align-items: center;
 
@@ -48,7 +48,7 @@ export const Profile = styled.div`
             color: ${({ theme }) => theme.COLORS.WHITE_200};
         }
 
-        a {
+        .loggout {
             font-size: 14px;
             color: ${({ theme }) => theme.COLORS.GRAY_300};
         }

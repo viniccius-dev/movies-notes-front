@@ -1,5 +1,6 @@
 import { FiArrowLeft } from 'react-icons/fi';
 import { Container, Form, Marks, Buttons } from './styles';
+import { Link } from 'react-router-dom';
 
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
@@ -14,9 +15,9 @@ export function New() {
 
             <main>
                 <Form>
-                    <a href="#">
+                    <Link to="/">
                         <FiArrowLeft /> Voltar
-                    </a>
+                    </Link>
                     <h2>Novo filme</h2>
 
                     <div className="inputs">

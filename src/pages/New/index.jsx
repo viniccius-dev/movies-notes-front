@@ -3,6 +3,7 @@ import { Container, Form } from './styles';
 
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
+import { Textarea } from '../../components/Textarea';
 import { Button } from '../../components/Button';
 
 export function New() {
@@ -30,6 +31,9 @@ export function New() {
                                 max="5"
                         />
                     </div>
+
+                    <Textarea placeholder="Observações" />
+
                 </Form>
             </main>
         </Container>

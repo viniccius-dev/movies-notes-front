@@ -42,5 +42,6 @@ export const Form = styled.form`
     .inputs {
         display: flex;
         gap: 35px;
+        margin-bottom: 20px;
     }
 `;

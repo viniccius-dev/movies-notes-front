@@ -52,4 +52,14 @@ export default createGlobalStyle`
     ::-webkit-scrollbar-button {
         display: none;
     }
+
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+    }
+
+    input[type=number] { 
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+
 `;
